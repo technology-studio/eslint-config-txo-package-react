@@ -1,3 +1,10 @@
+## 1.0.0 (2024-12-04)
+
+
+### Features
+
+* initial implementation ([#1](https://github.com/technology-studio/eslint-config-txo-package-react/issues/1)) ([ff33d4d](https://github.com/technology-studio/eslint-config-txo-package-react/commit/ff33d4dc812c94107b2a69960de771eb7401e956))
+
 ## 1.0.0 (2022-09-23)
 
 
