@@ -40,13 +40,14 @@ export const configList = [
   ...jestConfigList,
   {
     ignores: [
+      '.releaserc.js',
       'commitlint.config.js',
       'coverage/**/*',
-      'release.config.js',
-      '.releaserc.js',
       'eslint.config.js',
-      'node_modules',
+      'jest.config.js',
       'lib/**/*',
+      'node_modules',
+      'release.config.js',
     ],
   },
 ]
