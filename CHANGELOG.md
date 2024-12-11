@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/technology-studio/eslint-config-txo-package-react/compare/v1.0.5...v1.0.6) (2024-12-11)
+
+
+### Bug fixes
+
+* ignore eslint-ci config ([92304ae](https://github.com/technology-studio/eslint-config-txo-package-react/commit/92304aed49d031373dc0ac613cba043ab23875e9))
+
 ## [1.0.5](https://github.com/technology-studio/eslint-config-txo-package-react/compare/v1.0.4...v1.0.5) (2024-12-10)
 
 
