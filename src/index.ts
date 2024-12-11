@@ -43,6 +43,7 @@ export const configList = [
       '.releaserc.js',
       'commitlint.config.js',
       'coverage/**/*',
+      'eslint-ci.config.js',
       'eslint.config.js',
       'jest.config.js',
       'lib/**/*',
