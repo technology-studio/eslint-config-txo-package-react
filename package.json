@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-txo-package-react",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Technology Studio - Eslint config txo package react",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
