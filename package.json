@@ -23,7 +23,7 @@
     "build": "yarn build:clean && yarn build:lib",
     "compare-boilerplate-version": "./scripts/compare-boilerplate-version.sh",
     "coverage": "jest --coverage && open coverage/lcov-report/index.html || xdg-open coverage/lcov-report/index.html",
-    "lint:ci": "yarn lint",
+    "lint:ci": "yarn eslint -c eslint-ci.config.js --cache . && yarn txo-eslint ccr --cache",
     "lint:fix": "eslint . --fix",
     "lint": "eslint --max-warnings 0 .",
     "prepare": "husky && yarn build",
@@ -39,12 +39,12 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "eslint-config-txo-typescript": "^7.3.22",
+    "eslint-config-txo-typescript": "^7.4.10",
     "eslint-config-txo-typescript-react": "^3.0.6"
   },
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.4",
-    "@txo/commitlint": "^1.0.21",
+    "@txo/commitlint": "^1.0.22",
     "@txo/log-console": "^3.0.0",
     "@txo/semantic-release": "^2.0.10",
     "@txo/tsconfig": "^2.0.0",
