@@ -31,5 +31,5 @@ export default {
       tsconfig: '<rootDir>/__tests__/tsconfig.json'
     }]
   },
-  moduleNameMapper: pathsToModuleNameMapper(tsconfig.compilerOptions.paths ?? {}, { prefix: '<rootDir>/' }),
+  moduleNameMapper: pathsToModuleNameMapper(tsconfig.compilerOptions.paths, { prefix: '<rootDir>/' }),
 }
